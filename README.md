@@ -1,20 +1,20 @@
-# Dakon Game
+# Mancala Game
 
 <img src="assets/dakon.JPG" width="507" height="190"/>
 
-*This is a traditional Indonesian game built using pure HTML, CSS, and JavaScript.*
+*This is a traditional game built using pure HTML, CSS, and JavaScript.*
 
 -----
 
 ## What is Dakon?
 
-Dakon, also known as Congklak in some regions, is a popular traditional board game played across Indonesia. Players typically use **cowrie shells** as game pieces, though **seeds** or **small stones** are also common alternatives.
+Dakon, also known as Congklak/Mancala in some regions, is a popular traditional board game played across the globe, especially in Indonesia. Players typically use **cowrie shells** as game pieces, though **seeds** or **small stones** are also common alternatives.
 
 -----
 
 ## How to Play
 
-Dakon is a **turn-based game** where players take turns distributing "seeds" around a board. Here are the rules:
+Dakon/Mancala is a **turn-based game** where players take turns distributing "seeds" around a board. Here are the rules:
 
 1.  **Turns:** Only one player can make a move at a time. The other player must wait until their turn begins.
 2.  **The Board:** Each player has a "region" with **seven small holes** and **one larger "barn"** (or "lumbung").
@@ -30,11 +30,11 @@ Dakon is a **turn-based game** where players take turns distributing "seeds" aro
 
 ## Features (Current)
 
-  * **Player vs. Environment (PvE) or Player vs. Player (PvP):** Play against an AI opponent or challenge a friend.
-  * **AI Difficulty Levels:**
+  * **Player vs. Bot or Player vs. Player (PvP):** Play against an AI opponent or challenge a friend.
+  * **Difficulty Levels:**
       * **EASY:** Random moves.
-      * **MEDIUM:** Semi-minimax algorithm.
-      * **EXPERT:** Full minimax algorithm.
+      * **MEDIUM:** Best of 1 spin.
+      * **EXPERT:** Best of 3 spin.
   * **Configurable Starting Seeds:** Adjust the initial number of seeds in each hole.
   * **Debugging Log:** Utilize the `addLog('message');` function for real-time debugging.
 
